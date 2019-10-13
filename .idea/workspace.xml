@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e9b3c6e9-09f8-4602-b805-e5fa801d0494" name="默认更改列表" comment="单击按钮显示列表，再次点击隐藏列表">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day4/1.css" beforeDir="false" afterPath="$PROJECT_DIR$/day4/1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day4/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/day4/1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day4/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/day4/1.js" afterDir="false" />
     </list>
@@ -18,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day4/1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+            <state relative-caret-position="335">
+              <caret line="19" column="46" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -31,16 +30,16 @@
         <entry file="file://$PROJECT_DIR$/day4/1.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day4/1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            <state relative-caret-position="291">
+              <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -86,13 +85,13 @@
         <option value="$PROJECT_DIR$/day3/domOper/domTest.js" />
         <option value="$PROJECT_DIR$/day3/domOper/oper.html" />
         <option value="$PROJECT_DIR$/day4/1.css" />
-        <option value="$PROJECT_DIR$/day4/1.js" />
         <option value="$PROJECT_DIR$/day4/1.html" />
+        <option value="$PROJECT_DIR$/day4/1.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="627" />
+    <option name="x" value="636" />
     <option name="width" value="730" />
     <option name="height" value="728" />
   </component>
@@ -181,7 +180,8 @@
       <workItem from="1569507276840" duration="612000" />
       <workItem from="1569589194764" duration="2817000" />
       <workItem from="1569756931705" duration="7568000" />
-      <workItem from="1570884751316" duration="4187000" />
+      <workItem from="1570884751316" duration="4328000" />
+      <workItem from="1570932067905" duration="9711000" />
     </task>
     <task id="LOCAL-00001" summary="单击按钮显示列表，再次点击隐藏列表">
       <created>1569413940829</created>
@@ -194,10 +194,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46892000" />
+    <option name="totallyTimeSpent" value="56744000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="627" y="0" width="730" height="728" extended-state="0" />
+    <frame x="636" y="0" width="730" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.38839287" />
@@ -221,7 +221,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38839287" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.38839287" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -233,7 +233,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.41898528" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.41898528" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="调试" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
@@ -375,21 +375,21 @@
     <entry file="file://$PROJECT_DIR$/day4/1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day4/1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day4/1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        <state relative-caret-position="335">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day4/1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
         </state>
       </provider>
     </entry>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>test form</title>
     <link rel="stylesheet" href="1.css">
+    <script src="../jquery-3.4.1.js" type="text/javascript"></script>
 </head>
 <body>
 <form action="#" method="post" id="regForm">
@@ -11,12 +12,12 @@
         <legend>个人信息</legend>
         <div>
             <label for="userName">名称</label>
-            <input type="text" id="userNames">
+            <input type="text" class="required" id="userName">
         </div>
 
         <div>
             <label for="pass">密码</label>
-            <input type="text" id="pass">
+            <input type="text" class="required" id="pass">
         </div>
 
         <div class="msg_caption">
@@ -35,16 +36,39 @@
 
         <div>
             你的爱好运动是？<br/>
-            <input type="checkbox">读书
-            <input type="checkbox">足球
-            <input type="checkbox">羽毛球
-            <input type="button">全选
-            <input type="checkbox">
+            <input type="checkbox" name="item" value="读书">读书
+            <input type="checkbox" name="item" value="足球">足球
+            <input type="checkbox" name="item" value="羽毛球">羽毛球
+            <br>
+            <input type="button" id="checkedAll">全选
+            <input type="button" id="checkedNo">全不选
+            <input type="button" id="send">提交
+        </div>
+
+        <div>
+            <select multiple name="select1" id="select1">
+                <option value="1">选项1</option>
+                <option value="2">选项2</option>
+            </select>
+        </div>
+
+        <div>
+            <span id="add" class="caption">添加到右边</span>
+            <span id="add_all" class="caption">全部添加到右边</span>
+        </div>
+
+        <div class="content">
+            <select multiple name="select2" id="select2"></select>
+        </div>
+
+        <div>
+            <span id="remove" class="caption">删除到左边</span>
+            <span id="remove_all" class="caption">全部删除到左边</span>
         </div>
     </fieldset>
 </form>
 
-<script src="../jquery-3.4.1.js" type="text/javascript"></script>
+
 <script src="1.js" type="text/javascript"></script>
 
 </body>

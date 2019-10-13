@@ -4,6 +4,18 @@ $(function () {
         $(this).addClass("focus");
     }).blur(function () {
         $(this).removeClass("focus");
+        //$(this).parent().remove(".formtips");
+        $(this).parent().find(".formtips").remove();
+        //console.log(this.value);
+        if( $(this).is("#userName")){
+            if(this.value == "" || this.value.length < 6){
+                //console.log(this.value);
+                $(this).parent().append("<span class='formtips onError'>格式错误</span>>")
+            }
+            else{
+                $(this).parent().append("<span class='formtips onSuccess'>输入正确</span>>")
+            }
+        }
 
     });
 

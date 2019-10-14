@@ -1,0 +1,11 @@
+.even{
+    background:#aaaaaa;
+}
+
+.odd{
+    background:#ffaabb;
+}
+
+.selected{
+    background: #aabbcc;
+}
